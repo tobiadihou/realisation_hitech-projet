@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
+  <!-- <main>
     <div>
       <!-- le fil d'ariane -->
             <div class="fil_ariane">
@@ -20,7 +20,7 @@
             
 
             <!-- la page et ses section -->
-            <p> <strong>AOC 24B1XHS</strong></p>
+            <!-- <p> <strong>AOC 24B1XHS</strong></p>
             <ul>
                 <li><a href="#">Pésentation</a></li>
                 <li><a href="#">descriptif</a></li>
@@ -63,7 +63,7 @@
         <div class="buy_hassou">
             <div>
                     <div class="flex">  <!-- pour fair le display flex sur les deux premieres div -->
-                            <div class="price">
+                            <!-- <div class="price">
                                 <p>109€94</p>
                                 <span>dont éco-participation 1€70</span>
                             </div>
@@ -220,8 +220,64 @@
                 <tr><td> Alimentation interne</td><td>Non
             </table>
         </div>
+     -->
+    </section> -->
+    <!-- LE FORMULAIRE D4INSCRIPTION ET DE VALIDATION -->
+    <section>
+        <span>x</span>
+        <h2>Mon compte</h2>
+        <form action="">
+            <fieldset>
+                <p>J'ai déjà un compte</p>
+                <label for="email">Mon adresse email</label>
+                <input type="email" name="email" id="email"><br>
+
+                <label for="password">Mon mot de passe</label>
+                <input type="password" name="password" id="password">
+
+                <div class="button_login">
+                    <button>
+                        Se connecter
+                    </button>
+                        <a href="#">J'ai oublié mon mot de passe </a>
+    
+                </div>
+            </fieldset>
+            <div class="create_acount center">
+                <p>J'ai pas de compte</p>
+                <a href="">Créer un compte</a>
+            </div>
+
+        </form>
+        <form action="post">
+            <fieldset>
+                <legend>info générale de l'utilisateur</legend>
+                <label for="lastname">Nom</label>
+                <input type="text" name="lastname" id="lastname"><br>
+        
+                <label for="firstname">Prénom</label>
+                <input type="text" name="firstname" id="firstname"><br>
+        
+                <label for="username">Nom d'utilisateur</label>
+                <input type="text" name="username" id="username"><br>
+        
+            </fieldset>
+          <fieldset>
+            <legend>info privé de l'utlisateur</legend>
+            <label for="email">Emeail</label>
+            <input type="email" name="email" id="email"><br>
+    
+            <label for="password">Mot de passe</label>
+            <input type="password" name="password" id="password"><br>
+    
+            <label for="passwordConfirm">Mot de passe</label>
+            <input type="password" name="passwordConfirm" id="passwordConfirm"><br>
+          </fieldset>
+        </form>
+       
        
     </section>
+       
   </main>
 </body>
 </html>

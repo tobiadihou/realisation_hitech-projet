@@ -120,3 +120,97 @@ ul{
 {
     width: 100%;
 }
+
+
+/* ************************************************************************************************************************************
+                                                css DU FORMULAIREDE CONNECTION
+************************************************************************************************************************************** */
+section
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(230, 245, 176);
+    position: relative;
+
+}
+
+section > span
+{
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    color: #fff;
+    background-color: grey;
+    border:1px solid #fff ;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    text-align: center;
+}
+
+form fieldset
+{
+background-color: rgb(231, 231, 239); 
+padding: 3rem;
+position: relative;
+border-top-left-radius: 10rem;
+border-bottom-right-radius: 10rem;
+border: none;
+    box-shadow:var(--lg) ;
+    margin-top:2rem;
+}
+
+
+
+form input 
+{
+    width: 75%;
+    color: red;
+    padding: .2rem;
+    margin-block: 2rem;
+}
+form > fieldset >p
+{
+    margin-top: 5px;
+    position: absolute;
+    top: 2rem;
+}
+fieldset button
+{
+    background-color: #0c6588;
+    color: #fff;
+    padding: .1rem;
+}
+.button_login
+{
+    display: flex;
+    justify-content:flex-start;
+    gap: 10rem;
+
+}
+
+.create_acount
+{
+    margin-top: 1.5rem;
+    background-color: rgb(231, 231, 239); 
+    padding: 1rem;
+    border-top-right-radius: 10rem;
+    border-bottom-left-radius: 10rem;
+    border: none;
+    box-shadow:var(--lg) ;
+}
+
+.create_acount a
+{
+    background-color: #0c6588;
+    color: #fff;
+    padding: .1rem;
+    margin-top: 1rem; 
+; 
+}
+
+
+.create_acount p
+{
+    margin-bottom:1rem ;
+}
